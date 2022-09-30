@@ -10,30 +10,7 @@ namespace ConsoleApplication6
         static string[] listOfWords = { "Hend", "Brain", "Apple", "Gold"};
         static void Main(string[] args)
         {
-            //string response = "";
-            //do
-            //{
-            //    Console.Write("Enter Command (1.Play 2.Exit. Pick 1 OR 2): ");
-            //    response = Console.ReadLine();
-
-            //    switch (response)
-            //    {
-            //        case "1": 
-            //            Play();
-            //            break;
-            //        case "2":
-            //            break;
-
-            //    }
-            //} while (response != "2");
-
-
-
-
-
-            //static void Play()
-            //{
-            Console.WriteLine("Welcom to hangman game! \n");
+           Console.WriteLine("Welcom to hangman game! \n");
 
             Random random = new Random();
 
